@@ -31,12 +31,11 @@ Check your system's maximum column with the pd.options.display.max_column statem
 
 Increase the maximum number of rows to display the entire DataFrame.
 
-## PROGRAM:
-
-```python
 # To write a python program for reading content from a CSV file.
 # Developed by: KAMESH RR
 # Register Number: 212223230095
+
+```
 import pandas as pd
 df = pd.read_csv('nba.csv')
 print(df.head(10))
